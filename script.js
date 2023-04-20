@@ -11,3 +11,4 @@ const onProgress = (event) => {
   }
 };
 document.querySelector('model-viewer').addEventListener('progress', onProgress);
+scene.clearColor = new BABYLON.Color3.Black()
